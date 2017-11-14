@@ -1,0 +1,8 @@
+[Unit]
+Description=port-tester-echo-udp
+
+[Service]
+ExecStart=/usr/bin/node /app/port-tester-echo-udp/index.js
+
+[Install]
+WantedBy=multi-user.target
